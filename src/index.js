@@ -1,7 +1,7 @@
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import SimpleLightbox from 'simplelightbox/dist/simple-lightbox.esm.js';
-import { fetchGallery } from './js/fetchGallery';
+import { fetchGallery } from './api/fetchGallery';
 export const BASE_URL = 'https://pixabay.com/api/';
 export const API_KEY = '42026902-f9352e492811d87412855420c';
 const searchForm = document.getElementById('search-form');
